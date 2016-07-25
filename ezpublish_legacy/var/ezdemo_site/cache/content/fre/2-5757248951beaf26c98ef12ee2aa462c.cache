@@ -1,0 +1,573 @@
+a:10:{s:7:"content";s:29966:"<div class="content-view-full">
+    <div class="class-landing-page">
+
+    <div class="attribute-page">
+            <div class="zone-layout-2zoneslayout1 row">
+    <div class="span8">
+        <section class="content-view-block">
+                                        
+    <div id="address-865346aabbcc48a9839274cc554868be-b185f6579a346b728f3a6e344500c9fb">
+    <!-- BLOCK: START -->
+<div class="block-type-campaign">
+    <div class="campaign">
+        <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
+        <a href="#" class="navig next disabled"><span class="hide">&gt;</span></a>
+        <ul class="indicator disabled">
+                        <li class="selected"><span class="hide">1</span></li>
+                    </ul>
+        <ul class="images">
+        <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image">
+    <img src="/var/ezdemo_site/storage/images/getting-started/selected-features/getting-started-with-ez-publish-platform/313-1-fre-FR/Getting-Started-with-eZ-Publish-Platform_campaign.jpg" width="770" height="378" alt="Getting Started with eZ Publish Platform" />
+    <figcaption class="attribute-caption">
+                    
+<p>
+Welcome to eZ Publish Platform 5.3, the Ventoux release.&nbsp;<br />This release brings several new features and general improvements on the foundations introduced in eZ Publish Platform 5</p>                <h3><a href="/fre/Getting-Started/Selected-Features/Getting-Started-with-eZ-Publish-Platform">Getting Started with eZ Publish Platform</a></h3>
+    </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>        </ul>
+    </div>
+</div>
+<!-- BLOCK: END --><script type="text/javascript">
+
+YUI(YUI3_config).use('event', 'ezsimplegallery', function (Y) {
+    Y.on('domready', function () {
+        Y.all('.block-type-campaign').each(function () {
+            var gal = new Y.eZ.SimpleGallery({
+                gallery: this
+            });
+        });
+    });
+});
+
+</script>    </div>
+    <div class="block-separator"></div>
+                            
+    <div id="address-865346aabbcc48a9839274cc554868be-1a72c0bc9faa36b5e20be733fc8c8807">
+    
+<div class="block-type-content-grid block-view-2_columns_2_rows">
+
+        <div class="attribute-header">
+        <h2>Mixed Content</h2>
+    </div>
+    
+    <div class="row">
+            <div class="span4">
+        <article>
+
+    <a href="/fre/Getting-Started/Selected-Features/Create" class="teaser-link">
+            <div class="attribute-image">
+            
+
+    
+        
+    
+                                                                                                                                            <img src="/var/ezdemo_site/storage/images/getting-started/selected-features/create/291-1-fre-FR/Create_contentgrid.jpg" width="370" height="135"  style="border: 0px  ;" alt="Create" title="Create" />
+            
+    
+    
+            </div>
+            <div class="attribute-header">
+            <h3>Create</h3>
+        </div>
+    </a>
+
+    <div class="attribute-short">
+        
+<p>Increasing the productivity of your content infrastructure, eZ Publish Enterprise provides you with powerful tools to create, automate and collaborate on content...</p>    </div>
+
+</article>
+        </div>
+
+                    <div class="span4">
+        <article>
+
+    <a href="/fre/Getting-Started/Selected-Features/Deliver" class="teaser-link">
+            <div class="attribute-image">
+            
+
+    
+        
+    
+                                                                                                                                            <img src="/var/ezdemo_site/storage/images/getting-started/selected-features/deliver/280-1-fre-FR/Deliver_contentgrid.jpg" width="370" height="135"  style="border: 0px  ;" alt="Content Clustering with eZ Find" title="Content Clustering with eZ Find" />
+            
+    
+    
+            </div>
+            <div class="attribute-header">
+            <h3>Deliver</h3>
+        </div>
+    </a>
+
+    <div class="attribute-short">
+        
+<p>Content consumption is changing rapidly. An agile solution to distribute your content and empower your digital business model is key to success in every industry.</p>    </div>
+
+</article>
+        </div>
+
+                    </div>
+        <div class="row">
+                <div class="span4">
+        <article>
+
+    <a href="/fre/Getting-Started/Selected-Features/Optimize" class="teaser-link">
+            <div class="attribute-image">
+            
+
+    
+        
+    
+                                                                                                                                            <img src="/var/ezdemo_site/storage/images/getting-started/selected-features/optimize/302-1-fre-FR/Optimize_contentgrid.jpg" width="370" height="135"  style="border: 0px  ;" alt="Optimize" title="Optimize" />
+            
+    
+    
+            </div>
+            <div class="attribute-header">
+            <h3>Optimize</h3>
+        </div>
+    </a>
+
+    <div class="attribute-short">
+        
+<p>It’s about the right content at the right time and in the right format!</p>    </div>
+
+</article>
+        </div>
+
+                    <div class="span4">
+        <article>
+
+    <a href="/fre/Getting-Started/Selected-Features/Automate" class="teaser-link">
+            <div class="attribute-image">
+            
+
+    
+        
+    
+                                                                                                                                            <img src="/var/ezdemo_site/storage/images/getting-started/selected-features/automate/269-1-fre-FR/Automate_contentgrid.jpg" width="370" height="135"  style="border: 0px  ;" alt="Automate" title="Automate" />
+            
+    
+    
+            </div>
+            <div class="attribute-header">
+            <h3>Automate</h3>
+        </div>
+    </a>
+
+    <div class="attribute-short">
+        
+<p>If Create, Deliver and Optimize is the winning formula, the last thing you want to do when you are there is to automate so that your online user experience is self-building!</p>    </div>
+
+</article>
+        </div>
+
+                </div>
+
+</div>
+    </div>
+    <div class="block-separator"></div>
+                            
+    <div id="address-865346aabbcc48a9839274cc554868be-1e0260ecfb7f0d281c17447791584041">
+    <!-- BLOCK: START -->
+<div class="block-type-gallery">
+
+    <div class="block-gallery">
+        <div class="gallery-viewer">
+            <figure class="gallery-viewer-image visible">
+    <img src="/var/ezdemo_site/storage/images/media/images/mount-fuji/537-1-fre-FR/mount-Fuji_gallery.jpg" alt="mount Fuji" height="390" width="770" />
+    <figcaption>
+        <h3>
+            <span class="counter"><span>1</span>/8</span>
+            <a href="/fre/Media/Images/mount-Fuji">mount Fuji</a>
+        </h3>
+        <div>
+                    
+<p>Fuji is the first mountain eZ climbed, when releasing eZ Publish 4.4 in fall 2010.</p>                </div>
+    </figcaption>
+</figure>                                                                <figure class="gallery-viewer-image hidden">
+    <img src="/var/ezdemo_site/storage/images/media/images/mount-matterhorn/507-1-fre-FR/mount-Matterhorn_gallery.jpg" alt="mount Matterhorn" height="390" width="770" />
+    <figcaption>
+        <h3>
+            <span class="counter"><span>1</span>/8</span>
+            <a href="/fre/Media/Images/mount-Matterhorn">mount Matterhorn</a>
+        </h3>
+        <div>
+                    
+<p>The Matterhorn, also known as Cervino was the second mountain codename used, it was in spring 2011 for the eZ Publish 4.5 release. Photo: ccl&nbsp;<a href="http://creativecommons.org/licenses/by-nc-nd/2.0/" target="_self">Some rights reserved</a> by <a href="http://www.flickr.com/photos/fwp/" target="_self">Frank Peters</a></p>                </div>
+    </figcaption>
+</figure>                                                                                                                                                                                                                                                                                                                                </div>
+        <div class="gallery-navigator">
+            <a href="#" class="navig prev" style="opacity:0;"><span class="hide">&lt;</span></a>
+            <a href="#" class="navig next"><span class="hide">&gt;</span></a>
+
+            <img src="/extension/ezdemo/design/ezdemo/images/fg-selected.png" alt="Selected indicator" class="cursor" />
+            <ul class="images">
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-fuji/537-1-fre-FR/mount-Fuji_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Fuji" data-gallery-node-id="107" data-gallery-item="image" title="mount Fuji">
+    <a href="/fre/Media/Images/mount-Fuji"><img src="/var/ezdemo_site/storage/images/media/images/mount-fuji/537-1-fre-FR/mount-Fuji_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Fuji" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>Fuji is the first mountain eZ climbed, when releasing eZ Publish 4.4 in fall 2010.</p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-matterhorn/507-1-fre-FR/mount-Matterhorn_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Matterhorn" data-gallery-node-id="101" data-gallery-item="image" title="mount Matterhorn">
+    <a href="/fre/Media/Images/mount-Matterhorn"><img src="/var/ezdemo_site/storage/images/media/images/mount-matterhorn/507-1-fre-FR/mount-Matterhorn_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Matterhorn" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>The Matterhorn, also known as Cervino was the second mountain codename used, it was in spring 2011 for the eZ Publish 4.5 release. Photo: ccl&nbsp;<a href="http://creativecommons.org/licenses/by-nc-nd/2.0/" target="_self">Some rights reserved</a> by <a href="http://www.flickr.com/photos/fwp/" target="_self">Frank Peters</a></p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-annapurna/512-1-fre-FR/mount-Annapurna_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Annapurna" data-gallery-node-id="102" data-gallery-item="image" title="mount Annapurna">
+    <a href="/fre/Media/Images/mount-Annapurna"><img src="/var/ezdemo_site/storage/images/media/images/mount-annapurna/512-1-fre-FR/mount-Annapurna_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Annapurna" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p class=" text-justify">eZ Publish 4.6 was named after the Annapurna mountain&nbsp;(Sanskrit: “full of food”). This was fall 2011. Photo:&nbsp;<a href="http://creativecommons.org/licenses/by-nc-nd/2.0/" target="_self">Some rights reserved</a> by <a href="http://www.flickr.com/photos/samatflickr/" target="_self">Sam@flickr</a></p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-etna/532-1-fre-FR/mount-Etna_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Etna" data-gallery-node-id="106" data-gallery-item="image" title="mount Etna">
+    <a href="/fre/Media/Images/mount-Etna"><img src="/var/ezdemo_site/storage/images/media/images/mount-etna/532-1-fre-FR/mount-Etna_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Etna" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>The Etna release was the last of the 4.x generation, released in spring 2012.&nbsp;Photo by&nbsp;Josep Renalias&nbsp;under the <a href="http://en.wikipedia.org/wiki/en:Creative_Commons" target="_self">Creative Commons</a> <a href="http://creativecommons.org/licenses/by-sa/2.5/deed.en" target="_self">Attribution-Share Alike 2.5 Generic</a> license.</p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-kilimanjaro/527-1-fre-FR/mount-Kilimanjaro_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Kilimanjaro" data-gallery-node-id="105" data-gallery-item="image" title="mount Kilimanjaro">
+    <a href="/fre/Media/Images/mount-Kilimanjaro"><img src="/var/ezdemo_site/storage/images/media/images/mount-kilimanjaro/527-1-fre-FR/mount-Kilimanjaro_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Kilimanjaro" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>The first release of the new generation of eZ Publish, eZ Publish &nbsp;5.0 platform, was Kilimanjaro. A giant for a giant step that happened in fall 2012.&nbsp;</p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-stadda/517-1-fre-FR/mount-Stadda_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Stadda" data-gallery-node-id="103" data-gallery-item="image" title="mount Stadda">
+    <a href="/fre/Media/Images/mount-Stadda"><img src="/var/ezdemo_site/storage/images/media/images/mount-stadda/517-1-fre-FR/mount-Stadda_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Stadda" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>Stadda is almost there, the &quot;.1&quot; of the 5th generation: eZ Publish 5.1 and Norway's national mountain.</p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-aconcagua/542-1-fre-FR/mount-Aconcagua_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Aconcagua" data-gallery-node-id="108" data-gallery-item="image" title="mount Aconcagua">
+    <a href="/fre/Media/Images/mount-Aconcagua"><img src="/var/ezdemo_site/storage/images/media/images/mount-aconcagua/542-1-fre-FR/mount-Aconcagua_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Aconcagua" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>eZ will climb Aconcagua in fall 2013, a very important release numbered eZ Publish Platform 5.2.&nbsp;Photo by Crystal Davis, World Resources Institute, 2007. Cc.</p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                            <li><!-- BOX CONTENT: START -->
+<figure class="attribute-image" data-gallery-src="/var/ezdemo_site/storage/images/media/images/mount-ventoux/522-1-fre-FR/mount-Ventoux_gallery.jpg" data-gallery-height="390" data-gallery-width="770" data-gallery-node-url="/fre/Media/Images/mount-Ventoux" data-gallery-node-id="104" data-gallery-item="image" title="mount Ventoux">
+    <a href="/fre/Media/Images/mount-Ventoux"><img src="/var/ezdemo_site/storage/images/media/images/mount-ventoux/522-1-fre-FR/mount-Ventoux_gallerythumbnail.jpg"
+         width="105" height="79"
+         alt="mount Ventoux" /></a>
+    <figcaption class="attribute-caption">
+                    
+<p>Latest summit on eZ's list, &quot;le Ventoux&quot;, the &quot;Giant of Provence&quot; in spring 2014, a few weeks before le Tour de France. eZ Publish Platform 5.3 is here!</p>            </figcaption>
+</figure>
+<!-- BOX CONTENT: END --></li>
+                        </ul>
+        </div>
+
+    </div>
+        <script type="text/javascript">
+    
+
+    YUI(YUI3_config).use('ezgallery', 'event', function (Y) {
+        Y.on('domready', function () {
+            Y.all('.block-type-gallery').each(function () {
+                var g = new Y.eZ.Gallery({
+                    title: 'h3 a',
+                    caption: 'figcaption div',
+                    autoFixSizes: false,
+                    autoScrollOnSelect: false,
+                    navigator: {
+                        gallery: this.one('.block-gallery')
+                    },
+                    initFunc: function () {
+                        var imgs = this.navigator.getImages();
+
+                        setTimeout(function () {
+                            imgs.each(function(elem) {
+                                (new Image).src = elem.getAttribute('data-gallery-src');
+                            });
+                        }, 0);
+                    },
+                    updateFunc: function (item) {
+                        var node = item.imageNode,
+                            img = this.container.one('.gallery-viewer-image').one('> img');
+
+                        if ( node.getAttribute('data-gallery-item') == 'image' ) {
+                            this.container.one('.visible').replaceClass('visible', 'hidden');
+                            this.container.one('.gallery-viewer-image').replaceClass('hidden', 'visible');
+                        } else if ( node.getAttribute('data-gallery-item') == 'video' ) {
+                            this.container.one('.gallery-viewer-image').replaceClass('visible', 'hidden');
+                            this.container.one('#gallery-viewer-video-' + node.getAttribute('data-gallery-node-id')).replaceClass('hidden', 'visible');
+                        }
+
+                        if ( img ) {
+                            img.setAttribute('src', node.getAttribute('data-gallery-src'));
+                            img.setAttribute('height', node.getAttribute('data-gallery-height'));
+                            img.setAttribute('width', node.getAttribute('data-gallery-width'));
+                            img.setAttribute('alt', node.get('title'));
+                        }
+
+                        var t = this.container.one('.visible ' + this.conf.title),
+                            cap = this.container.one('.visible ' + this.conf.caption),
+                            c = this.container.one('.visible ' + this.conf.counter);
+
+                        t.setContent(node.get('title'));
+                        t.setAttribute('href', node.getAttribute('data-gallery-node-url'));
+                        c.setContent(item.index + 1);
+                        cap.setContent(node.one('figcaption').getContent());
+                    }
+                });
+            });
+        });
+    });
+    
+    
+    </script>
+    </div>
+<!-- BLOCK: END -->
+    </div>
+    <div class="block-separator"></div>
+                                </section>
+    </div>
+    <div class="span4">
+        <aside>
+            <section class="content-view-block content-view-aside">
+                                                    
+    <div id="address-f742abffba08fc849b6e80dec769a74c-3bb6f2370e6640145cce2c39cac1128e">
+    
+<div class="block-type-content-grid block-view-default">
+
+        <div class="attribute-header">
+        <h2>White Paper</h2>
+    </div>
+    
+            <article class="clearfix">
+    <h3>Discover eZ Publish 5</h3>
+
+    <a href="/fre/Discover-eZ-Publish-5" title="Discover eZ Publish 5" class="btn btn-warning pull-right">Get your copy!</a>
+</article>
+    
+</div>
+    </div>
+    <div class="block-separator"></div>
+                                    
+    <div id="address-f742abffba08fc849b6e80dec769a74c-2e6db295bcd100bae0dfd9411d9a53c1">
+    
+<div class="block-type-content-grid block-view-default">
+
+        <div class="attribute-header">
+        <h2>Main Items</h2>
+    </div>
+    
+            <article class="selected-products">
+    <div class="attribute-image">
+        
+
+    
+        
+    
+                                                                                                                                    <a href="/fre/Shopping/Products/eZ-Publish-Man-jacket">        <img src="/var/ezdemo_site/storage/images/shopping/products/ez-publish-man-jacket/361-1-fre-FR/eZ-Publish-Man-jacket_productthumbnail.jpg" width="170" height="170"  style="border: 0px  ;" alt="American Apparel California Fleece Track Jacket" title="American Apparel California Fleece Track Jacket" />
+        </a>    
+    
+    
+        </div>
+    <div class="product-info">
+        <div class="attribute-header">
+            <a href="/fre/Shopping/Products/eZ-Publish-Man-jacket" class="teaser-link">
+                <h3>eZ Publish - Man jacket</h3>
+            </a>
+        </div>
+        <ul class="breadcrumb">
+                        <li>
+                <a href="/fre">Home</a>
+                            </li>
+                            <span class="divider">»</span>
+                            <li>
+                <a href="/fre/Shopping">Shopping</a>
+                            </li>
+                            <span class="divider">»</span>
+                            <li>
+                <a href="/fre/Shopping/Products">Products</a>
+                            </li>
+                    </ul>
+        <form method="post" action="/fre/content/action">
+            <fieldset>
+                <div class="item-price">
+                    56,45 €
+                </div>
+                <div class="item-buying-action form-inline">
+                    <label>
+                        <span class="hidden">Montant</span>
+                        <input type="text" name="Quantity" />
+                    </label>
+                    <button class="btn btn-warning" type="submit" name="ActionAddToBasket">
+                        Buy
+                    </button>
+                </div>
+            </fieldset>
+            <input type="hidden" name="ContentNodeID" value="79" />
+            <input type="hidden" name="ContentObjectID" value="77" />
+            <input type="hidden" name="ViewMode" value="full" />
+        </form>
+    </div>
+</article>
+            <article class="selected-products">
+    <div class="attribute-image">
+        
+
+    
+        
+    
+                                                                                                                                    <a href="/fre/Shopping/Products/eZ-Publish-Community-iPhone-4-Case">        <img src="/var/ezdemo_site/storage/images/shopping/products/ez-publish-community-iphone-4-case/331-1-fre-FR/eZ-Publish-Community-iPhone-4-Case_productthumbnail.jpg" width="170" height="170"  style="border: 0px  ;" alt="Case Savvy iPhone 4 Matte Finish Case" title="Case Savvy iPhone 4 Matte Finish Case" />
+        </a>    
+    
+    
+        </div>
+    <div class="product-info">
+        <div class="attribute-header">
+            <a href="/fre/Shopping/Products/eZ-Publish-Community-iPhone-4-Case" class="teaser-link">
+                <h3>eZ Publish Community - iPhone 4 Case</h3>
+            </a>
+        </div>
+        <ul class="breadcrumb">
+                        <li>
+                <a href="/fre">Home</a>
+                            </li>
+                            <span class="divider">»</span>
+                            <li>
+                <a href="/fre/Shopping">Shopping</a>
+                            </li>
+                            <span class="divider">»</span>
+                            <li>
+                <a href="/fre/Shopping/Products">Products</a>
+                            </li>
+                    </ul>
+        <form method="post" action="/fre/content/action">
+            <fieldset>
+                <div class="item-price">
+                    35,95 €
+                </div>
+                <div class="item-buying-action form-inline">
+                    <label>
+                        <span class="hidden">Montant</span>
+                        <input type="text" name="Quantity" />
+                    </label>
+                    <button class="btn btn-warning" type="submit" name="ActionAddToBasket">
+                        Buy
+                    </button>
+                </div>
+            </fieldset>
+            <input type="hidden" name="ContentNodeID" value="76" />
+            <input type="hidden" name="ContentObjectID" value="74" />
+            <input type="hidden" name="ViewMode" value="full" />
+        </form>
+    </div>
+</article>
+    
+</div>
+    </div>
+    <div class="block-separator"></div>
+                                    
+    <div id="address-f742abffba08fc849b6e80dec769a74c-4c3e0180ec19775b3dea5794dd12312a">
+    
+<div class="block-type-feed-reader item-list">
+    <div class="attribute-header">
+        <h2>
+            <a href="http://ez.no/" title="eZ News">eZ News</a>
+        </h2>
+    </div>
+    <article>
+        <ul>
+                    <li>
+                <a href="http://ez.no/Blog/5-Benefits-of-Structured-Content" title="5 Benefits of Structured Content">5 Benefits of Structured Content</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/The-Week-in-Review-eZ-Conference-May-Giveaway-PhpStorm-Security-Update-and-More" title="The Week in Review: eZ Conference, May Giveaway, PhpStorm Security Update and More">The Week in Review: eZ Conference, May Giveaway, PhpStorm Security Update and More</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/Announcing-eZ-Conference-2016-Beyond-the-Web" title="Announcing eZ Conference 2016: Beyond the Web">Announcing eZ Conference 2016: Beyond the Web</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/How-to-Optimize-User-Navigation-Pagination-vs.-Infinite-Scrolling" title="How to Optimize User Navigation: Pagination vs. Infinite Scrolling">How to Optimize User Navigation: Pagination vs. Infinite Scrolling</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/The-Week-in-Review-eZ-Platform-2016.04-Improved-Beginner-Tutorial-and-Lots-of-Social-and-Events" title="The Week in Review: eZ Platform 2016.04, Improved Beginner Tutorial, and Lots of Social and Events">The Week in Review: eZ Platform 2016.04, Improved Beginner Tutorial, and Lots of Social and Events</a>
+            </li>
+                </ul>
+    </article>
+</div>    </div>
+    <div class="block-separator"></div>
+                                    
+    <div id="address-f742abffba08fc849b6e80dec769a74c-53d83f8bd8ee4307eb23cc46dc29c145">
+    
+
+
+<script>
+    _V_.options.flash.swf = "/extension/ezdemo/design/ezdemo/flash/video-js.swf"
+</script>
+
+<div class="block-type-video">
+    <div class="attribute-header">
+        <h2>Selected Video</h2>
+    </div>
+    <article>
+        <div class="attribute-video">
+            <video id="video_53d83f8bd8ee4307eb23cc46dc29c145" class="video-js vjs-default-skin" controls preload="auto" width="330" height="264" poster="" data-setup="{}">
+              <source src="http://dev.manager2.com/fre/content/download/107/547/ezshortintro.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="attribute-header">
+            <h3>eZ Publish Optimize</h3>
+        </div>
+
+        <div class="attribute-short">
+            
+        </div>
+    </article>
+</div>    </div>
+    <div class="block-separator"></div>
+                                    
+    <div id="address-f742abffba08fc849b6e80dec769a74c-6c72d9153b703a8598bd2760e4d0dccb">
+    <div class="block-type-tagcloud block-view-default">
+    <div class="attribute-header">
+        <h2>Tags</h2>
+    </div>
+    <article>
+                    <a href="/fre/content/keyword/Blog%20Post" style="font-size: 100%" title="1 objects tagged with 'Blog Post'">Blog Post</a> <a href="/fre/content/keyword/cxm" style="font-size: 100%" title="1 objects tagged with 'cxm'">cxm</a> <a href="/fre/content/keyword/deliver" style="font-size: 100%" title="1 objects tagged with 'deliver'">deliver</a> <a href="/fre/content/keyword/e-commerce" style="font-size: 100%" title="1 objects tagged with 'e-commerce'">e-commerce</a> <a href="/fre/content/keyword/ez%20publish" style="font-size: 100%" title="1 objects tagged with 'ez publish'">ez publish</a> <a href="/fre/content/keyword/eZ%20Publish" style="font-size: 100%" title="1 objects tagged with 'eZ Publish'">eZ Publish</a> <a href="/fre/content/keyword/kilimanjaro" style="font-size: 100%" title="1 objects tagged with 'kilimanjaro'">kilimanjaro</a> <a href="/fre/content/keyword/landing%20page" style="font-size: 100%" title="1 objects tagged with 'landing page'">landing page</a> <a href="/fre/content/keyword/phone" style="font-size: 100%" title="1 objects tagged with 'phone'">phone</a> <a href="/fre/content/keyword/Shopping%20New%20York" style="font-size: 100%" title="1 objects tagged with 'Shopping New York'">Shopping New York</a> <a href="/fre/content/keyword/Social" style="font-size: 100%" title="1 objects tagged with 'Social'">Social</a> <a href="/fre/content/keyword/tech" style="font-size: 100%" title="1 objects tagged with 'tech'">tech</a> <a href="/fre/content/keyword/Ventoux" style="font-size: 200%" title="3 objects tagged with 'Ventoux'">Ventoux</a> 
+            </article>
+</div>
+    </div>
+    <div class="block-separator"></div>
+                                            </section>
+        </aside>
+    </div>
+</div>
+
+    </div>
+
+    </div>
+</div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:1:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:1:"2";}}s:10:"title_path";a:1:{i:0;a:3:{s:4:"text";s:4:"Home";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:1:"2";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:2:"57";s:7:"node_id";s:1:"2";s:14:"parent_node_id";s:1:"1";s:8:"class_id";s:2:"23";s:16:"class_identifier";s:12:"landing_page";s:9:"remote_id";s:32:"8a9c9c761004866fb458d89910f52bee";s:14:"node_remote_id";s:32:"f3e90596361e31d496d4026eb624c983";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"1";s:9:"url_alias";s:0:"";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:1:"2";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";a:2:{s:9:"css_files";a:1:{i:0;s:9:"video.css";}s:8:"js_files";a:1:{i:0;s:8:"video.js";}}s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:1:"1";s:23:"parent_class_identifier";s:6:"folder";s:21:"parent_node_remote_id";s:32:"629709ba256fe317c3ddcee35453a96a";s:23:"parent_object_remote_id";s:32:"8af43721d468ca992480c02483391d06";}s:13:"template_list";a:2:{i:0;s:62:"extension/ezdemo/design/ezdemo/templates/tagcloud/tagcloud.tpl";i:1;s:70:"extension/ezflow/design/standard/templates/parts/zone_block_bottom.tpl";}s:9:"cache_ttl";i:-1;}

@@ -1,0 +1,27 @@
+
+<div class="block-type-feed-reader item-list">
+    <div class="attribute-header">
+        <h2>
+            <a href="http://ez.no/" title="eZ News">eZ News</a>
+        </h2>
+    </div>
+    <article>
+        <ul>
+                    <li>
+                <a href="http://ez.no/Blog/5-Benefits-of-Structured-Content" title="5 Benefits of Structured Content">5 Benefits of Structured Content</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/The-Week-in-Review-eZ-Conference-May-Giveaway-PhpStorm-Security-Update-and-More" title="The Week in Review: eZ Conference, May Giveaway, PhpStorm Security Update and More">The Week in Review: eZ Conference, May Giveaway, PhpStorm Security Update and More</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/Announcing-eZ-Conference-2016-Beyond-the-Web" title="Announcing eZ Conference 2016: Beyond the Web">Announcing eZ Conference 2016: Beyond the Web</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/How-to-Optimize-User-Navigation-Pagination-vs.-Infinite-Scrolling" title="How to Optimize User Navigation: Pagination vs. Infinite Scrolling">How to Optimize User Navigation: Pagination vs. Infinite Scrolling</a>
+            </li>
+                    <li>
+                <a href="http://ez.no/Blog/The-Week-in-Review-eZ-Platform-2016.04-Improved-Beginner-Tutorial-and-Lots-of-Social-and-Events" title="The Week in Review: eZ Platform 2016.04, Improved Beginner Tutorial, and Lots of Social and Events">The Week in Review: eZ Platform 2016.04, Improved Beginner Tutorial, and Lots of Social and Events</a>
+            </li>
+                </ul>
+    </article>
+</div>
