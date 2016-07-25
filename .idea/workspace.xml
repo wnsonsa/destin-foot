@@ -1,0 +1,1342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cde13e8-394a-4d0f-ba77-e27b017aef8e" name="Default" comment="" />
+    <ignored path="manager2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="manager2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blog_post.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/blog_post.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="USAGE.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/doc/USAGE.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joueur.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/joueur.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="84" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/ezdemo/design/ezdemo/override/templates/gallery_viewer/video.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/design/ezwebin/override/templates/full/article.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1055">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_saison.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/popin/modal_saison.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerTemplateOperators.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/ManagerTemplateOperators.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/classes/Manager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding>
+                <marker date="1468965160416" expanded="true" signature="991:1076" placeholder="INSERT INTO vue... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+                <marker date="1468963359060" expanded="true" signature="695:780" placeholder="INSERT INTO vue... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eztags.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/datatypes/eztags/eztags.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="399" column="13" selection-start-line="399" selection-start-column="13" selection-end-line="399" selection-end-column="13" />
+              <folding>
+                <marker date="1416145056000" expanded="true" signature="4019:4401" placeholder="SELECT eztag... eztags_attribute_link" />
+                <marker date="1416145056000" expanded="true" signature="5695:5819" placeholder="SELECT DISTI... eztags_attribute_link" />
+                <marker date="1416145056000" expanded="true" signature="7270:7432" placeholder="DELETE FROM " />
+                <marker date="1416145056000" expanded="true" signature="10038:10328" placeholder="INSERT INTO eztags... " />
+                <marker date="1416145056000" expanded="true" signature="10438:10528" placeholder="UPDATE eztag... " />
+                <marker date="1416145056000" expanded="true" signature="10702:10750" placeholder="UPDATE eztag... " />
+                <marker date="1416145056000" expanded="true" signature="11371:11412" placeholder="SELECT id, p... eztags" />
+                <marker date="1416145056000" expanded="true" signature="11823:11999" placeholder="INSERT INTO eztags_attribute_link... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ezpublish_legacy/settings/siteaccess/manager2/content.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/settings/siteaccess/ezdemo_site_admin/site.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/page_head.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/page_footer_script.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/landing_page.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/page_mainarea.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/login_handler/ezManageruser.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil/creer.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/kernel/user/login.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil/login.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/settings/siteaccess/manager2/site.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/settings/siteaccess/manager2/override.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/settings/override/site.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/stylesheets/theme.css" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/manager2.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/config.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/creer.php" />
+        <option value="$PROJECT_DIR$/web/extension/manager2/settings/site.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/module.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/module.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/site.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/test.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/page_head_style.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/javascript/manager2.js" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/modifier.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/pagelayout.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/design.ini.append.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/stylesheets/override.css" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/popin/display_club.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/popin/modal_club.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil/modifier.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/Manager.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/eztemplateautoload.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/blog_post.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/login.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/ManagerTemplateOperators.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/lib/ezfile/classes/ezlog.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/classes/Manager.php" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/popin/modal_saison.tpl" />
+        <option value="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/joueur.tpl" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sql">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="settings">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="modules">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="profil">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eztags">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eztags">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="doc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eztags">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="design">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eztags">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="design">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezwebin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="override">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="full">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="design">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="design">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="override">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="design">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="override">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="gallery_viewer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="manager2">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezpublish_legacy">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="extension">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ezdemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="design">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/images" />
+      <recent name="$PROJECT_DIR$/ezpublish_legacy" />
+      <recent name="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil" />
+      <recent name="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil" />
+      <recent name="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/javascript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/classes" />
+      <recent name="$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/stylesheets/assets/css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cde13e8-394a-4d0f-ba77-e27b017aef8e" name="Default" comment="" />
+      <created>1463821455955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1463821455955</updated>
+      <workItem from="1463821462378" duration="18700000" />
+      <workItem from="1463923692098" duration="41028000" />
+      <workItem from="1464376543975" duration="9534000" />
+      <workItem from="1465414834671" duration="5140000" />
+      <workItem from="1465744493121" duration="6113000" />
+      <workItem from="1466191722759" duration="2061000" />
+      <workItem from="1466193804148" duration="40902000" />
+      <workItem from="1467311659715" duration="688000" />
+      <workItem from="1467396824600" duration="75195000" />
+      <workItem from="1468178189145" duration="5012000" />
+      <workItem from="1468436837797" duration="20804000" />
+      <workItem from="1468868797492" duration="51277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="276454000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2430279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24223107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2430279" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24223107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/javascript/validator.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="455" selection-start-line="8" selection-start-column="453" selection-end-line="8" selection-end-column="455" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/javascript/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="5" column="1810" selection-start-line="5" selection-start-column="1809" selection-end-line="5" selection-end-column="1810" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/lib/ezutils/classes/ezhttptool.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5745">
+          <caret line="390" column="49" selection-start-line="390" selection-start-column="49" selection-end-line="390" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/page_mainarea.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/login_handler/ezManageruser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="66" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/bin/php/clusterize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/bin/php/ezexec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/kernel/user/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil/login.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/settings/siteaccess/manager2/site.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil/creer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/stylesheets/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="638" column="9" selection-start-line="638" selection-start-column="2" selection-end-line="638" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/manager2.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/kernel/classes/eznodeassignment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/config.php-RECOMMENDED">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/kernel/classes/ezcontentobject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41415">
+          <caret line="2768" column="13" selection-start-line="2768" selection-start-column="13" selection-end-line="2768" selection-end-column="13" />
+          <folding>
+            <marker date="1416145058000" expanded="true" signature="19292:19409" placeholder="SELECT name,... ezcontentobject_name" />
+            <marker date="1416145058000" expanded="true" signature="20365:20440" placeholder="SELECT initi... ezcontentobject" />
+            <marker date="1416145058000" expanded="true" signature="21268:21552" placeholder="SELECT name,... ezcontentobject_name" />
+            <marker date="1416145058000" expanded="true" signature="24235:24432" placeholder="SELECT COUNT... " />
+            <marker date="1416145058000" expanded="true" signature="24505:24770" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="24833:25588" placeholder="INSERT INTO ezcontentobject_name... " />
+            <marker date="1416145058000" expanded="true" signature="31573:32271" placeholder="SELECT ezcon... ezcontentobject_attribute" />
+            <marker date="1416145058000" expanded="true" signature="35628:35696" placeholder="SELECT id FR... ezcontentobject" />
+            <marker date="1416145058000" expanded="true" signature="38350:38989" placeholder="SELECT ezcon... ezcontentobject" />
+            <marker date="1416145058000" expanded="true" signature="40665:41134" placeholder="SELECT co.*,... ezcontentobject" />
+            <marker date="1416145058000" expanded="true" signature="42865:43593" placeholder="SELECT ezcon... ezcontentclass" />
+            <marker date="1416145058000" expanded="true" signature="67541:67731" placeholder="INSERT INTO ezcobj_state_link... " />
+            <marker date="1416145058000" expanded="true" signature="67635:67731" placeholder="SELECT conte... ezcobj_state_link" />
+            <marker date="1416145058000" expanded="true" signature="72405:72918" placeholder="SELECT attr.... ezcontentobject_link" />
+            <marker date="1416145058000" expanded="true" signature="75034:75111" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75138:75220" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75247:75327" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75354:75431" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75458:75511" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75544:75602" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75629:75705" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75732:75802" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="75829:75907" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="76100:76510" placeholder="SELECT DISTI... ezbasket" />
+            <marker date="1416145058000" expanded="true" signature="77516:77641" placeholder="UPDATE ezpro... " />
+            <marker date="1416145058000" expanded="true" signature="77754:77846" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="77873:77963" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="78047:78108" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="78135:78238" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="78265:78356" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="87712:88543" placeholder="SELECT ezcon... ezcontentobject_attribute" />
+            <marker date="1416145058000" expanded="true" signature="91450:91968" placeholder="SELECT ezcon... ezcontentobject_attribute" />
+            <marker date="1416145058000" expanded="true" signature="109645:109772" placeholder="SELECT ( MAX... ezcontentobject_version" />
+            <marker date="1416145058000" expanded="true" signature="110117:110293" placeholder="SELECT versi... ezcontentobject_version" />
+            <marker date="1416145058000" expanded="true" signature="110729:110860" placeholder="SELECT ( COU... ezcontentobject_version" />
+            <marker date="1416145058000" expanded="true" signature="116369:116744" placeholder="SELECT count... " />
+            <marker date="1416145058000" expanded="true" signature="116985:117245" placeholder="INSERT INTO ezcontentobject_link... " />
+            <marker date="1416145058000" expanded="true" signature="117635:118007" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="120151:120469" placeholder="SELECT * FRO... ezcontentobject_link" />
+            <marker date="1416145058000" expanded="true" signature="120991:121209" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="121419:121739" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="121836:122140" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="122647:122957" placeholder="SELECT to_co... ezcontentobject_link" />
+            <marker date="1416145058000" expanded="true" signature="123164:123657" placeholder="INSERT INTO ezcontentobject_link... " />
+            <marker date="1416145058000" expanded="true" signature="149355:150072" placeholder="SELECT COUNT... " />
+            <marker date="1416145058000" expanded="true" signature="209879:209953" placeholder="SELECT seria... ezcontentclass" />
+            <marker date="1416145058000" expanded="true" signature="241880:242233" placeholder="SELECT DISTI... ezcontentobject_version" />
+            <marker date="1416145058000" expanded="true" signature="243062:243152" placeholder="SELECT count... " />
+            <marker date="1416145058000" expanded="true" signature="248980:249202" placeholder="SELECT * FRO... ezcontentobject_attribute" />
+            <marker date="1416145058000" expanded="true" signature="249572:249749" placeholder="DELETE FROM " />
+            <marker date="1416145058000" expanded="true" signature="249956:250097" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="250160:250292" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="252492:252536" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="252961:253163" placeholder="UPDATE ezcon... " />
+            <marker date="1416145058000" expanded="true" signature="254904:255122" placeholder="SELECT ezcob... ezcobj_state" />
+            <marker date="1416145058000" expanded="true" signature="261036:261243" placeholder="SELECT conte... ezcobj_state_link" />
+            <marker date="1416145058000" expanded="true" signature="261859:262194" placeholder="SELECT l.con... ezcobj_state_link" />
+            <marker date="1416145058000" expanded="true" signature="263357:263538" placeholder="UPDATE ezcob... " />
+            <marker date="1416145058000" expanded="true" signature="264245:264377" placeholder="INSERT INTO ezcobj_state_link... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/settings/override/site.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/extension/manager2/settings/site.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/module.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="200" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/page_head_style.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/kernel/classes/ezcontentfunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-606">
+          <caret line="226" column="27" selection-start-line="226" selection-start-column="27" selection-end-line="226" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/settings/siteaccess/manager2/override.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/images/ez-sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/pagelayout.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/javascript/manager2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/design.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/stylesheets/override.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="204" column="1" selection-start-line="204" selection-start-column="1" selection-end-line="204" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/profil/modifier.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="1012" column="138" selection-start-line="1012" selection-start-column="138" selection-end-line="1012" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/ezarchive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1463821099000" expanded="true" signature="2409:4305" placeholder="SELECT MONTH... " />
+            <marker date="1463821099000" expanded="true" signature="4410:6632" placeholder="SELECT EXTRA... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/settings/site.ini.append.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#421#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/kernel/classes/datatypes/ezuser/ezuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="2472" column="39" selection-start-line="2472" selection-start-column="16" selection-end-line="2472" selection-end-column="39" />
+          <folding>
+            <marker date="1416145058000" expanded="true" signature="8678:8764" placeholder="SELECT * FRO... ezuser" />
+            <marker date="1416145058000" expanded="true" signature="15538:15753" placeholder="SELECT ${$se... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="16075:16362" placeholder="SELECT ${$se... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="17227:17398" placeholder="SELECT count... " />
+            <marker date="1416145058000" expanded="true" signature="18372:18505" placeholder="SELECT count... " />
+            <marker date="1416145058000" expanded="true" signature="19389:19507" placeholder="SELECT DISTI... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="21764:22131" placeholder="SELECT ezcon... ezuser" />
+            <marker date="1416145058000" expanded="true" signature="28436:28974" placeholder="SELECT conte... ezuser" />
+            <marker date="1416145058000" expanded="true" signature="29032:29370" placeholder="SELECT conte... ezuser" />
+            <marker date="1416145058000" expanded="true" signature="30192:30532" placeholder="SELECT conte... ezuser" />
+            <marker date="1416145058000" expanded="true" signature="31970:32074" placeholder="UPDATE ezuse... " />
+            <marker date="1416145058000" expanded="true" signature="38850:38941" placeholder="UPDATE ezuse... " />
+            <marker date="1416145058000" expanded="true" signature="52339:52379" placeholder="SELECT 1 FRO... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="52579:52711" placeholder="UPDATE ezuse... " />
+            <marker date="1416145058000" expanded="true" signature="52840:52987" placeholder="INSERT INTO ezuservisit... " />
+            <marker date="1416145058000" expanded="true" signature="53243:53302" placeholder="SELECT last_... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="53781:53831" placeholder="SELECT login... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="55151:55191" placeholder="SELECT 1 FRO... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="55535:55615" placeholder="UPDATE ezuse... " />
+            <marker date="1416145058000" expanded="true" signature="55862:55961" placeholder="INSERT INTO ezuservisit... " />
+            <marker date="1416145058000" expanded="true" signature="56631:56691" placeholder="SELECT faile... ezuservisit" />
+            <marker date="1416145058000" expanded="true" signature="84511:84703" placeholder="SELECT DISTI... ezuser_role" />
+            <marker date="1416145058000" expanded="true" signature="87027:87618" placeholder="SELECT d.*, ezcontentobject_tree" />
+            <marker date="1416145058000" expanded="true" signature="88415:88841" placeholder="SELECT d.* F... ezcontentobject_tree" />
+            <marker date="1416145058000" expanded="true" signature="89954:90361" placeholder="SELECT c.con... ezcontentobject_tree" />
+            <marker date="1416145058000" expanded="true" signature="91005:91432" placeholder="SELECT c.con... ezcontentobject_tree" />
+            <marker date="1416145058000" expanded="true" signature="95875:96404" placeholder="SELECT ${$fi... ezcontentclass" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/creer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/eztemplateautoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="74" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/ezpagedata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="481" column="22" selection-start-line="481" selection-start-column="21" selection-end-line="481" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/datatypes/eztags/eztags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="399" column="13" selection-start-line="399" selection-start-column="13" selection-end-line="399" selection-end-column="13" />
+          <folding>
+            <marker date="1416145056000" expanded="true" signature="4019:4401" placeholder="SELECT eztag... eztags_attribute_link" />
+            <marker date="1416145056000" expanded="true" signature="5695:5819" placeholder="SELECT DISTI... eztags_attribute_link" />
+            <marker date="1416145056000" expanded="true" signature="7270:7432" placeholder="DELETE FROM " />
+            <marker date="1416145056000" expanded="true" signature="10038:10328" placeholder="INSERT INTO eztags... " />
+            <marker date="1416145056000" expanded="true" signature="10438:10528" placeholder="UPDATE eztag... " />
+            <marker date="1416145056000" expanded="true" signature="10702:10750" placeholder="UPDATE eztag... " />
+            <marker date="1416145056000" expanded="true" signature="11371:11412" placeholder="SELECT id, p... eztags" />
+            <marker date="1416145056000" expanded="true" signature="11823:11999" placeholder="INSERT INTO eztags_attribute_link... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/modules/profil/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1468963359060" expanded="true" signature="695:780" placeholder="INSERT INTO vue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/autoloads/ManagerTemplateOperators.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/lib/ezfile/classes/ezlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/classes/Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <marker date="1468965160416" expanded="true" signature="991:1076" placeholder="INSERT INTO vue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/doc/EXAMPLE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/doc/INSTALL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/blog_post.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/templates/popin/modal_saison.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/doc/USAGE.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/eztags/design/ezwebin/override/templates/full/article.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1055">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/ezdemo/design/ezdemo/override/templates/gallery_viewer/video.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezpublish_legacy/extension/manager2/design/manager2/override/templates/full/joueur.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="84" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
