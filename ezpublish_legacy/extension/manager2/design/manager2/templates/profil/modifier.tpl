@@ -20,6 +20,8 @@
             <div class="well">
                 <form data-toggle="validator" class="form-horizontal well" id="form-modify" name="form-modify"
                       action={'/profil/modifier'|ezurl} method="post" enctype="multipart/form-data" role="form">
+                    {def $user=fetch( 'user', 'current_user' )}
+                    <input type="hidden" name="profil" value="{$user.contentobject.class_identifier}" />
                     <div class="tabbable">
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#1" data-toggle="tab">Identité</a></li>
@@ -830,13 +832,14 @@
                             </div>
                             <div class="tab-pane" id="4">
                                 <div class="toClone">
+
                                     {if count($attributesSaisonForm)|gt(0)}
-                                        {foreach $attributesSaisonForm as $saison}
-                                            <input type="hidden" name="saisonid_0" value="{$saison.object_id}">
+                                        {foreach $attributesSaisonForm as $i => $saison}
+                                            <input type="hidden" name="saisonid_{$i}" value="{$saison.object_id}">
                                             <div class="form-group">
                                                 <label for="saison" class="col-sm-2 control-label">Saison</label>
                                                 <div class="col-sm-6">
-                                                    <select id="saison" name="saison_0" class="form-control"
+                                                    <select name="saison_{$i}" class="form-control"
                                                             data-error="vous devez remplir ce champ">
                                                         <option value="">Choisir la saison</option>
                                                         {def $year=currentdate()|datetime(custom, '%Y')}
@@ -850,16 +853,17 @@
                                             <div class="form-group">
                                                 <label for="club" class="col-sm-2 control-label">Nom du club</label>
                                                 <div class="col-sm-6">
-                                                    <input type="text" class="form-control" id="club" name="club_0"
+                                                    <input type="text" class="form-control" name="club_{$i}"
                                                            placeholder="nom du club"
                                                            data-error=""
                                                            value="{if is_set($saison.club)}{$saison.club}{/if}">
                                                 </div>
                                             </div>
+                                            {if $user.contentobject.class_identifier|eq('joueur')}
                                             <div class="form-group">
                                                 <label for="categorie" class="col-sm-2 control-label">Catégorie</label>
                                                 <div class="col-sm-6">
-                                                    <select id="categorie" name="categorie_0" class="form-control"
+                                                    <select name="categorie_{$i}" class="form-control"
                                                             data-error="vous devez remplir ce champ">
                                                         <option value="">Choisir la catégorie</option>
                                                         <option value="Poussin (U7) : 5 ans et 6 ans"{if and(is_set($saison.categorie),eq($saison.categorie,"u7"))} selected="selected"{/if}>
@@ -896,7 +900,7 @@
                                                 <label for="division"
                                                        class="col-sm-2 control-label">Niveau/division</label>
                                                 <div class="col-sm-6">
-                                                    <select id="division" name="division_0" class="form-control"
+                                                    <select name="division_{$i}" class="form-control"
                                                             data-error="vous devez remplir ce champ">
                                                         <option value="">Choisir la division</option>
                                                         <option value="Ligue 1"{if and(is_set($saison.division),eq($saison.division,"l1"))} selected="selected"{/if}>
@@ -986,7 +990,7 @@
                                             <div class="form-group">
                                                 <label for="poste" class="col-sm-2 control-label">Poste</label>
                                                 <div class="col-sm-6">
-                                                    <select id="poste" name="poste_0" class="form-control"
+                                                    <select name="poste_{$i}" class="form-control"
                                                             data-error="vous devez remplir ce champ">
                                                         <option value="">Choisir le poste</option>
                                                         <option value="Gardien de but"{if and(is_set($saison.poste),eq($saison.poste,"Gardien de but"))} selected="selected"{/if}>
@@ -1037,7 +1041,7 @@
                                             <div class="form-group">
                                                 <label for="coach" class="col-sm-2 control-label">Coach</label>
                                                 <div class="col-sm-6">
-                                                    <input type="text" class="form-control" id="coach" name="coach_0"
+                                                    <input type="text" class="form-control" name="coach_{$i}"
                                                            placeholder="Nom du Coach"
                                                            data-error=""
                                                            value="{if is_set($saison.coach)}{$saison.coach}{/if}">
@@ -1048,7 +1052,7 @@
                                                     départementales
                                                     / régionales / nationales</label>
                                                 <div class="col-sm-6">
-                                                    <select id="selection" name="selection_0" class="form-control"
+                                                    <select name="selection_{$i}" class="form-control"
                                                             data-error="vous devez remplir ce champ">
                                                         <option value="">Aucune sélection</option>
                                                         <option value="departementale"{if and(is_set($saison.selection),eq($saison.selection,"departementale"))} selected="selected"{/if}>
@@ -1066,13 +1070,33 @@
                                             <div class="form-group">
                                                 <label for="palmares" class="col-sm-2 control-label">Palmarès</label>
                                                 <div class="col-sm-6">
-                                                    <input type="text" class="form-control" id="palmares"
-                                                           name="palmares_0"
+                                                    <input type="text" class="form-control"
+                                                           name="palmares_{$i}"
                                                            placeholder="Palmarès (championnat, coupe, tournois, etc...)"
                                                            data-error=""
                                                            value="{if is_set($saison.palmares)}{$saison.palmares}{/if}">
                                                 </div>
                                             </div>
+                                            {elseif $user.contentobject.class_identifier|eq('recruteur')}
+                                            <div class="form-group">
+                                                <label for="fonction" class="col-sm-2 control-label">Fonction</label>
+                                                <div class="col-sm-6">
+                                                    <select name="fonction_{$i}" class="form-control"
+                                                            data-error="vous devez remplir ce champ">
+                                                        <option value="">Aucune sélection</option>
+                                                        <option value="Recruteur"{if and(is_set($saison.fonction),eq($saison.fonction,"Recruteur"))} selected="selected"{/if}>
+                                                            Recruteur
+                                                        </option>
+                                                        <option value="Superviseur"{if and(is_set($saison.fonction),eq($saison.fonction,"Superviseur"))} selected="selected"{/if}>
+                                                            Superviseur
+                                                        </option>
+                                                        <option value="Entraineur"{if and(is_set($saison.fonction),eq($saison.fonction,"Entraineur"))} selected="selected"{/if}>
+                                                            Entraineur
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            {/if}
                                             <hr>
                                         {/foreach}
                                     {else}
@@ -1080,7 +1104,7 @@
                                         <div class="form-group">
                                             <label for="saison" class="col-sm-2 control-label">Saison</label>
                                             <div class="col-sm-6">
-                                                <select id="saison" name="saison_0" class="form-control"
+                                                <select name="saison_0" class="form-control"
                                                         data-error="vous devez remplir ce champ">
                                                     <option value="">Choisir la saison</option>
                                                     {def $year=currentdate()|datetime(custom, '%Y')}
@@ -1094,16 +1118,17 @@
                                         <div class="form-group">
                                             <label for="club" class="col-sm-2 control-label">Nom du club</label>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control" id="club" name="club_0"
+                                                <input type="text" class="form-control" name="club_0"
                                                        placeholder="nom du club"
                                                        data-error=""
                                                        value="{if is_set($saison.club)}{$saison.club}{/if}">
                                             </div>
                                         </div>
+                                    {if $user.contentobject.class_identifier|eq('joueur')}
                                         <div class="form-group">
                                             <label for="categorie" class="col-sm-2 control-label">Catégorie</label>
                                             <div class="col-sm-6">
-                                                <select id="categorie" name="categorie_0" class="form-control"
+                                                <select name="categorie_0" class="form-control"
                                                         data-error="vous devez remplir ce champ">
                                                     <option value="">Choisir la catégorie</option>
                                                     <option value="u7"{if and(is_set($saison.statut),eq($saison.statut,"u7"))} selected="selected"{/if}>
@@ -1142,7 +1167,7 @@
                                             <label for="division"
                                                    class="col-sm-2 control-label">Niveau/division</label>
                                             <div class="col-sm-6">
-                                                <select id="division" name="division_0" class="form-control"
+                                                <select name="division_0" class="form-control"
                                                         data-error="vous devez remplir ce champ">
                                                     <option value="">Choisir la division</option>
                                                     <option value="l1"{if and(is_set($saison.division),eq($saison.division,"l1"))} selected="selected"{/if}>
@@ -1232,7 +1257,7 @@
                                         <div class="form-group">
                                             <label for="poste" class="col-sm-2 control-label">Poste</label>
                                             <div class="col-sm-6">
-                                                <select id="poste" name="poste_0" class="form-control"
+                                                <select name="poste_0" class="form-control"
                                                         data-error="vous devez remplir ce champ">
                                                     <option value="">Choisir le poste</option>
                                                     <option value="gardien"{if and(is_set($saison.poste),eq($saison.poste,"gardien"))} selected="selected"{/if}>
@@ -1283,7 +1308,7 @@
                                         <div class="form-group">
                                             <label for="coach" class="col-sm-2 control-label">Coach</label>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control" id="coach" name="coach_0"
+                                                <input type="text" class="form-control" name="coach_0"
                                                        placeholder="Nom du Coach"
                                                        data-error=""
                                                        value="{if is_set($saison.coach)}{$saison.coach}{/if}">
@@ -1294,7 +1319,7 @@
                                                 départementales
                                                 / régionales / nationales</label>
                                             <div class="col-sm-6">
-                                                <select id="selection" name="selection_0" class="form-control"
+                                                <select name="selection_0" class="form-control"
                                                         data-error="vous devez remplir ce champ">
                                                     <option value="">Aucune sélection</option>
                                                     <option value="departementale"{if and(is_set($saison.selection),eq($saison.selection,"departementale"))} selected="selected"{/if}>
@@ -1312,13 +1337,33 @@
                                         <div class="form-group">
                                             <label for="palmares" class="col-sm-2 control-label">Palmarès</label>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control" id="palmares"
+                                                <input type="text" class="form-control"
                                                        name="palmares_0"
                                                        placeholder="Palmarès (championnat, coupe, tournois, etc...)"
                                                        data-error=""
                                                        value="{if is_set($saison.palmares)}{$saison.palmares}{/if}">
                                             </div>
                                         </div>
+                                    {elseif $user.contentobject.class_identifier|eq('recruteur')}
+                                    <div class="form-group">
+                                        <label for="fonction" class="col-sm-2 control-label">Fonction</label>
+                                        <div class="col-sm-6">
+                                            <select name="fonction_0" class="form-control"
+                                                    data-error="vous devez remplir ce champ">
+                                                <option value="">Aucune sélection</option>
+                                                <option value="Recruteur"{if and(is_set($saison.fonction),eq($saison.fonction,"Recruteur"))} selected="selected"{/if}>
+                                                    Recruteur
+                                                </option>
+                                                <option value="Superviseur"{if and(is_set($saison.fonction),eq($saison.fonction,"Superviseur"))} selected="selected"{/if}>
+                                                    Superviseur
+                                                </option>
+                                                <option value="Entraineur"{if and(is_set($saison.fonction),eq($saison.fonction,"Entraineur"))} selected="selected"{/if}>
+                                                    Entraineur
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    {/if}
                                         <hr>
                                     {/if}
                                 </div>

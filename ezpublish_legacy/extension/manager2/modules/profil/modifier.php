@@ -22,13 +22,14 @@ if ('anonymous' == $current_user->attribute('login')) {
 }
 
 //récupération des données utilisateur
-$joueur = $current_user->attribute('contentobject');
-if (!$joueur instanceof eZContentObject) {
+$user = $current_user->attribute('contentobject');
+if (!$user instanceof eZContentObject) {
     $http->redirect('/profil/login');
     return true;
 }
 
 $attributesForm = [];
+
 //var_dump($_POST);die();
 if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true') {
     if (
@@ -117,10 +118,10 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
 
         $params = array();
         $params['attributes'] = $attributes;
-        $params['remote_id'] = $joueur->attribute('remote_id');
-        $params['section_id'] = $joueur->attribute('section_id');
+        $params['remote_id'] = $user->attribute('remote_id');
+        $params['section_id'] = $user->attribute('section_id');
 
-        $result = eZContentFunctions::updateAndPublishObject($joueur, $params);
+        $result = eZContentFunctions::updateAndPublishObject($user, $params);
 
 
         /**
@@ -160,6 +161,9 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
             if ($http->hasPostVariable('palmares_' . $counter) && !empty($http->postVariable('palmares_' . $counter))) {
                 $attributes['palmares'] = $http->postVariable('palmares_' . $counter);
             }
+            if ($http->hasPostVariable('fonction_' . $counter) && !empty($http->postVariable('fonction_' . $counter))) {
+                $attributes['fonction'] = $http->postVariable('fonction_' . $counter);
+            }   
 
             $params = array();
             $params['attributes'] = $attributes;
@@ -196,11 +200,17 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
             if ($http->hasPostVariable('palmares_' . $counter) && !empty($http->postVariable('palmares_' . $counter))) {
                 $attributes['palmares'] = $http->postVariable('palmares_' . $counter);
             }
+            if ($http->hasPostVariable('taille') && !empty($http->postVariable('taille'))) {
+                $attributes['taille'] = $http->postVariable('taille' );
+            }
+            if ($http->hasPostVariable('poids') && !empty($http->postVariable('poids'))) {
+                $attributes['poids'] = $http->postVariable('poids');
+            }
 
             $params = array();
             $params['attributes'] = $attributes;
-            $params['section_id'] = $joueur->attribute('section_id');
-            $params['parent_node_id'] = $joueur->attribute('main_node_id');
+            $params['section_id'] = $user->attribute('section_id');
+            $params['parent_node_id'] = $user->attribute('main_node_id');
             $params['class_identifier'] = 'saison';
 
             $result = eZContentFunctions::createAndPublishObject($params);
@@ -214,8 +224,8 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
     }
 }
 //récupération attributs de joueur
-$joueur = eZContentObject::fetch($joueur->attribute('id'));
-$dataMapJoueur = $joueur->attribute('data_map');
+$user = eZContentObject::fetch($user->attribute('id'));
+$dataMapJoueur = $user->attribute('data_map');
 foreach ($dataMapJoueur as $attributeName => $attributeValue) {
     switch ($attributeValue->attribute('data_type_string')) {
         case 'ezdate':
@@ -253,7 +263,7 @@ $saisons = eZContentObjectTreeNode::subTreeByNodeID(
         'Depth' => 1, // Enfants directs du parent <=> à une profondeur de 1 sous le noeud n°67
         'SortBy' => array(array('published', true))
     ),
-    $joueur->attribute('main_node_id') // Peut également être un array : array(67)
+    $user->attribute('main_node_id') // Peut également être un array : array(67)
 );
 
 $attributesSaisonForm = [];

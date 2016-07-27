@@ -8,7 +8,7 @@
 /var/test*
 *.DS_Store
 /.project
-/.idea/
+*/.idea/
 /nbproject/
 /bin/linux/ezlupdate
 /bin/win32
