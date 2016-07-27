@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-lg-12 text-center">
                         <div class="thumbnail" style="margin-bottom:5px;">
-                            <img src="{'noavatar.png'|ezimage('no')}" class="img-rounded"/>
+                            <img src="{'joueur.jpeg'|ezimage('no')}" class="img-rounded"/>
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-12 text-center" style="margin-bottom:5px;">
@@ -246,7 +246,7 @@
                                 fjs.parentNode.insertBefore(js, fjs);
                             }(document, 'script', 'facebook-jssdk'));</script>
                     {/literal}
-                    <div class="fb-comments" data-href="http://dev.manager2.com/Joueurs/nelson" data-width="900"
+                    <div class="fb-comments" data-href="{$node.url_alias|ezurl(no,'full')}" data-width="900"
                          data-numposts="10"></div>
 
                 </div>

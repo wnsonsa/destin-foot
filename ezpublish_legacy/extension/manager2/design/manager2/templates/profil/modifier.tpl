@@ -58,6 +58,24 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <label for="taille" class="col-sm-2 control-label">Taille*</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="taille" name="taille"
+                                               placeholder="Taille en cm" data-error="vous devez remplir ce champ"
+                                               value="{if is_set($attributesForm.taille)}{$attributesForm.taille}{/if}"
+                                               required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="poids" class="col-sm-2 control-label">Poids*</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control" id="poids" name="poids"
+                                               placeholder="Poids en kg" data-error="vous devez remplir ce champ"
+                                               value="{if is_set($attributesForm.poids)}{$attributesForm.poids}{/if}"
+                                               required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label for="region" class="col-sm-2 control-label">Région*</label>
                                     <div class="col-sm-6">
                                         <select id="region" name="region" class="form-control"

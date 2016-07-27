@@ -35,6 +35,8 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
         empty($http->postVariable('nom')) ||
         empty($http->postVariable('prenom')) ||
         empty($http->postVariable('dateNaissance')) ||
+        empty($http->postVariable('taille')) ||
+        empty($http->postVariable('poids')) ||
         empty($http->postVariable('region'))
     ) {
         $error = "Veuillez remplir les champs obligatoires";
@@ -56,6 +58,14 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
 
         if ($http->hasPostVariable('prenom') && !empty($http->postVariable('prenom'))) {
             $attributes['prenom'] = $http->postVariable('prenom');
+        }
+
+        if ($http->hasPostVariable('taille') && !empty($http->postVariable('taille'))) {
+            $attributes['taille'] = $http->postVariable('taille');
+        }
+
+        if ($http->hasPostVariable('poids') && !empty($http->postVariable('poids'))) {
+            $attributes['poids'] = $http->postVariable('poids');
         }
 
         if ($http->hasPostVariable('dateNaissance') && !empty($http->postVariable('dateNaissance'))) {

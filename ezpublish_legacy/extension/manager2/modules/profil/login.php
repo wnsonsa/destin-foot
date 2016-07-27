@@ -7,7 +7,7 @@
  */
 
 $module = $Params['Module'];
-$object_id = 139;
+/*$object_id = 139;
 if(!empty($object_id)) {
     $postObject = eZContentObject::fetch($object_id);
     if ( $postObject instanceof eZContentObject) {
@@ -23,9 +23,9 @@ if(!empty($object_id)) {
 
         $insert = "INSERT INTO vue ( object_id, tag, group_ids) VALUES ( $object_id, '$tags', '$groups');";
         $db->query($insert);
-        die();
+        //die();
     }
-}
+}*/
 
 $http = eZHTTPTool::instance();
 $tpl = eZTemplate::factory();

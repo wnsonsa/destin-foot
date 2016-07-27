@@ -1,6 +1,12 @@
 <?php /* #?ini charset="utf-8"?
 
 
+[recruteur]
+Source=node/view/full.tpl
+MatchFile=full/recruteur.tpl
+Subdir=templates
+Match[class_identifier]=recruteur
+
 [joueur]
 Source=node/view/full.tpl
 MatchFile=full/joueur.tpl
