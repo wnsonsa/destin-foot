@@ -3,5 +3,6 @@
 [ModuleSettings]
 ExtensionRepositories[]=manager2
 ModuleList[]=profil
- 
+ModuleList[]=ajax
+
 */ ?>

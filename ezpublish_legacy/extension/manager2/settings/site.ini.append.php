@@ -19,5 +19,6 @@ FeedObjectAttributeMap[category]=tags
 PolicyOmitList[]=profil/creer
 PolicyOmitList[]=profil/login
 PolicyOmitList[]=profil/modifier
+PolicyOmitList[]=ajax/plus-vue
 
 */ ?>
