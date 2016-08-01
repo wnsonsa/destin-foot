@@ -1,4 +1,4 @@
-/*!
+//*!
  * Bootstrap v3.0.0
  *
  * Copyright 2013 Twitter, Inc
@@ -2157,8 +2157,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  src: url('/extension/manager2/design/manager2/fonts/glyphicons-halflings-regular.eot');
+  src: url('/extension/manager2/design/manager2/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/extension/manager2/design/manager2/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/extension/manager2/design/manager2/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/extension/manager2/design/manager2/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;

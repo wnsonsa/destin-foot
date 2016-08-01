@@ -32,6 +32,38 @@ $(document).ready(function(){
     });
 });
 
-function validFormRegister() {
+function plusVue(classViewed,originUserId,viewedObjectId) {
+    if ('' != classViewed && '' != originUserId && '' != viewedObjectId) {
+        $.ajax({
+            url: '/ajax/plus-vue/' + classViewed + '/' + originUserId + '/' + viewedObjectId
+        })
+    }
     
 }
+
+function validateRequired(form){
+    /*var inputForm = $("#"+form).find('input[value=""]');
+    if($('input[name="titrePhoto"]').val().length === 0 || $('input[name="photo"]').val().length === 0){
+        return false;
+    }
+    $("#"+form).submit();
+    return true;*/
+
+
+}
+
+$(document).ready(function(){
+    $( '#formPhoto' )
+        .submit( function( e ) {
+            e.preventDefault();
+            $.ajax( {
+                url: '/add/photo',
+                type: 'POST',
+                data: new FormData( this ),
+                processData: false,
+                contentType: false
+            } );
+
+        } );
+});
+

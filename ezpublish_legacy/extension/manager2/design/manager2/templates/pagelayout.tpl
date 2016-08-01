@@ -94,7 +94,7 @@
 <!-- Complete page area: END -->
 
 <!-- Footer script area: START -->
-{include uri='design:page_footer_script.tpl'}
+{include uri='design:page_footer_script.tpl' current_node_id=$current_node_id}
 <!-- Footer script area: END -->
 
 {/cache-block}

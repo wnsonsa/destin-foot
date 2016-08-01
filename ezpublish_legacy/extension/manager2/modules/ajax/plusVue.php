@@ -13,17 +13,20 @@ $tpl = eZTemplate::factory();
 $error = null;
 $create = false;
 
-if( empty(intval($Params['classViewed'])) || empty(intval($Params['originUserId '])) || empty(intval($Params['viewedObjectId']))) {
-    return false;
+if( empty(intval($Params['classViewed'])) || empty(intval($Params['originUserId'])) || empty(intval($Params['viewedObjectId']))) {
+    echo 'false';
+    eZExecution::cleanExit();
 }
 
 $class_id       = $Params['classViewed'];
 $originUserId   = $Params['originUserId'];
 $viewedObjectId = $Params['viewedObjectId'];
-$ip = Manager2::get_client_ip();
+$ip = Manager::get_client_ip();
 
 $db = eZDB::instance();
-$insert = "INSERT INTO vue (id, viewed_class_object_id, viewed_object_id, origin_user_id, date_insert, ip) VALUES (NULL, $class_id, $viewedObjectId, $originUserId, CURRENT_TIMESTAMP, $ip);";
+$time = time();
+$insert = "INSERT INTO vue ( viewed_class_object_id, viewed_object_id, origin_user_id, date_insert, ip) VALUES ( $class_id, $viewedObjectId, $originUserId, $time, '$ip');";
 $db->query($insert);
 
-return true;
+echo 'true';
+eZExecution::cleanExit();

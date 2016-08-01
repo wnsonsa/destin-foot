@@ -163,7 +163,7 @@ if ($http->hasPostVariable('modify') && $http->postVariable('modify') == 'true')
             }
             if ($http->hasPostVariable('fonction_' . $counter) && !empty($http->postVariable('fonction_' . $counter))) {
                 $attributes['fonction'] = $http->postVariable('fonction_' . $counter);
-            }   
+            }
 
             $params = array();
             $params['attributes'] = $attributes;

@@ -20,5 +20,6 @@ PolicyOmitList[]=profil/creer
 PolicyOmitList[]=profil/login
 PolicyOmitList[]=profil/modifier
 PolicyOmitList[]=ajax/plus-vue
+PolicyOmitList[]=add/photo
 
 */ ?>

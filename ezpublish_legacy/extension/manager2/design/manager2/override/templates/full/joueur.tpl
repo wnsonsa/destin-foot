@@ -255,3 +255,9 @@
     </div>
 </div>
 {include uri="design:popin/modal_saison.tpl" saisons=$saisons}
+{def $user=fetch( 'user', 'current_user' )}
+<script>
+    jQuery(document).ready(function() {ldelim}
+        plusVue("{$node.object.contentclass_id}","{$user.contentobject.id}","{$node.contentobject_id}");
+        {rdelim});
+</script>

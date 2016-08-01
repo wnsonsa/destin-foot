@@ -29,7 +29,7 @@
                         {/if}
                     </div>
                 </div>
-                <hr style="height:1px;border:none;color:#333;background-color:#333;">
+                <hr>
                 <div class="row">
                     <div class="col-sm-12 col-lg-12 text-center">
                         <h4>Followers</h4>
@@ -37,6 +37,12 @@
                         <p class="lead">
                             <button type="button" class="btn btn-primary">suivre</button>
                         </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12 text-center">
+                        <a href="#" data-toggle="modal" data-target="#addPhoto"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>&nbsp; publier photo</a>
                     </div>
                 </div>
             </div>
@@ -255,3 +261,10 @@
     </div>
 </div>
 {include uri="design:popin/modal_saison.tpl" saisons=$saisons}
+
+{def $user=fetch( 'user', 'current_user' )}
+<script>
+jQuery(document).ready(function() {ldelim}
+    plusVue("{$node.object.contentclass_id}","{$user.contentobject.id}","{$node.contentobject_id}");
+    {rdelim});
+</script>
