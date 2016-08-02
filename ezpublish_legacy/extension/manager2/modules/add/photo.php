@@ -12,10 +12,9 @@ $http = eZHTTPTool::instance();
 $tpl = eZTemplate::factory();
 $error = '';
 $create = false;
-
 if(!$http->hasPostVariable('parent_node_id')){
     $error = 'erreur système';
-    echo json_encode(['response'=>false,'error'=>$error]);
+    echo json_encode(['valid'=>false,'error'=>$error]);
     eZExecution::cleanExit();
 }
 
@@ -26,19 +25,19 @@ if( $node instanceof eZContentObjectTreeNode ) {
 }
 
 if( !$http->hasPostVariable('titrePhoto') ||
-    !$http->hasPostVariable('photo') )
+    !$_FILES['photo'] )
 {
     $error = 'Tous les champs sont obligatoires';
     //$http->redirect($node->attribute('url_alias'),array('error'=>$error));
-    echo json_encode(['response'=>false,'error'=>$error]);
+    echo json_encode(['valid'=>false,'error'=>$error]);
     eZExecution::cleanExit();
 }
 
 $parent_node_id = $http->postVariable('parent_node_id');
 $titre          = $http->postVariable('titrePhoto');
 $photo          = $_FILES['photo']['tmp_name'];
-$file_type      = $_FILES['file']['type'];
-$file_size      = $_FILES['file']['size'];
+$file_type      = $_FILES['photo']['type'];
+$file_size      = $_FILES['photo']['size'];
 
 $video_size_max = 10485760; // 10Mo
 $image_size_max = 2097152;  // 2Mo
@@ -53,7 +52,7 @@ if( !$http->hasPostVariable('description'))
 $class_identifier = '';
 if( exif_imagetype($photo) != false && $file_size < $image_size_max)
 {
-    $class_identifier = 'photo';
+    $class_identifier = 'image';
 }
 elseif ((($file_type == "video/webm") || ($file_type == "video/mp4") || ($file_type == "video/ogv")) && $file_size < $video_size_max )
 {
@@ -66,15 +65,21 @@ else
     //$http->redirect($node->attribute('url_alias'),array('error'=>$error));
 }
 
-if($class_identifier == 'photo' || $class_identifier == 'video')
+if($class_identifier == 'image' || $class_identifier == 'video')
 {
-    $params['class_identifier'] = 'recruteur';
+    $params['class_identifier'] = $class_identifier;
     $params['parent_node_id'] = $parent_node_id;
     $params['creator_id'] = $contentobject_id;
 
     $attributes = array();
     $attributes['name'] = $titre;
-    $attributes['file'] = $photo;
+    if($class_identifier == 'image') {
+        $attributes['image'] = $photo;
+    }
+    else {
+        $attributes['file'] = $photo;
+    }
+
     $attributes['caption'] = $description;
 
     $params['attributes'] = $attributes;
@@ -82,7 +87,7 @@ if($class_identifier == 'photo' || $class_identifier == 'video')
     $response = eZContentFunctions::createAndPublishObject($params);
 
     //$http->redirect($node->attribute('url_alias'),array('error'=>$error));
-    echo json_encode(['response'=>true,'error'=>$error,'success'=>'votre publication a bien été pris en compte']);
+    echo json_encode(['valid'=>true,'error'=>$error,'success'=>'votre publication a bien été pris en compte']);
     eZExecution::cleanExit();
 }
 

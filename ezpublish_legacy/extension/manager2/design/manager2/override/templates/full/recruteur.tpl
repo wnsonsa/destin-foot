@@ -42,7 +42,7 @@
                 <hr>
                 <div class="row">
                     <div class="col-sm-12 col-lg-12 text-center">
-                        <a href="#" data-toggle="modal" data-target="#addPhoto"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>&nbsp; publier photo</a>
+                        <a href="#" data-toggle="modal" data-target="#addPhoto"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>&nbsp; publier photo ou video</a>
                     </div>
                 </div>
             </div>
@@ -179,8 +179,7 @@
                                     <a href="#"><span class="label label-info">growth</span></a>
                                 </p>*}
                                 <p>{$image.data_map.caption.content.output.output_text}</p>
-                                <p class="text-right"><a class="btn btn-info" href="{$image.url_alias|ezurl(no)}">View
-                                        details</a></p>
+                                <p class="text-right"><a class="btn btn-info" href="{$image.url_alias|ezurl(no)}">voir toutes les photos</a></p>
                             </div>
                         </div>
                     </div>

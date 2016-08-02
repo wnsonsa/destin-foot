@@ -41,17 +41,6 @@ function plusVue(classViewed,originUserId,viewedObjectId) {
     
 }
 
-function validateRequired(form){
-    /*var inputForm = $("#"+form).find('input[value=""]');
-    if($('input[name="titrePhoto"]').val().length === 0 || $('input[name="photo"]').val().length === 0){
-        return false;
-    }
-    $("#"+form).submit();
-    return true;*/
-
-
-}
-
 $(document).ready(function(){
     $( '#formPhoto' )
         .submit( function( e ) {
@@ -62,7 +51,23 @@ $(document).ready(function(){
                 data: new FormData( this ),
                 processData: false,
                 contentType: false
-            } );
+            } )
+                .done(function (data) {
+                    response = $.parseJSON(data);
+                    //console.log(response);
+                    if(!response.valid){
+                        $('.alert').hide();
+                        $('.alert-danger').find('strong').html(response.error);
+                        $('.alert-danger').show();
+                    }
+                    else{
+                        $('.alert').hide();
+                        $('.alert-success').find('strong').html(response.success);
+                        $('.alert-success').show();
+                        setTimeout(function(){ $('#addPhoto').modal('hide'); },2000)
+                    }
+                })
+            ;
 
         } );
 });
