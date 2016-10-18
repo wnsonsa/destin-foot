@@ -39,6 +39,8 @@ $photo          = $_FILES['photo']['tmp_name'];
 $file_type      = $_FILES['photo']['type'];
 $file_size      = $_FILES['photo']['size'];
 
+move_uploaded_file( $_FILES["photo"]["tmp_name"], "tmp/" . $_FILES['photo']['name']);
+
 $video_size_max = 10485760; // 10Mo
 $image_size_max = 2097152;  // 2Mo
 
