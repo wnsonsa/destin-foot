@@ -5,5 +5,6 @@ ExtensionRepositories[]=manager2
 ModuleList[]=profil
 ModuleList[]=ajax
 ModuleList[]=add
+ModuleList[]=posts
 
 */ ?>
