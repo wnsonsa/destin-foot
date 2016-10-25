@@ -45,10 +45,11 @@ $articles = eZContentObjectTreeNode::subTreeByNodeID(
     $parentNodeId
 );
 
+$tpl->setVariable('articles',$articles);
 
-echo '<pre>';
-var_dump($articles);
-echo '</pre>';
-die();
+$Result = array();
+$Result['content']    = $tpl->fetch( 'design:posts/tous.tpl' );
+$Result['ui_context'] = 'edit';
+$Result['path']       = array();
 
-eZExecution::cleanExit();
+//eZExecution::cleanExit();
