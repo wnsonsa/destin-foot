@@ -1,7 +1,6 @@
-../.idea/*
+../.idea
 var/cache/*
 var/manager2/cache/*
 var/ezdemo_site/*
 var/log/*
 var/manager2/log/*
-../.idea/workspace.xml
